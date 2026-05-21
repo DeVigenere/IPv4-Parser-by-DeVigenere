@@ -1,0 +1,3 @@
+C:\Users\user\source\repos\PARSER2\PARSER2\tests\test\x64\Debug\gtest.pdb
+C:\Users\user\source\repos\PARSER2\PARSER2\tests\test\x64\Debug\gtest_main.pdb
+C:\Users\user\source\repos\PARSER2\PARSER2\tests\test\test\x64\Debug\test.vcxproj.Up2Date
