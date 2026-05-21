@@ -1,12 +1,12 @@
 #include "pch.h"
-#include "../src/subnet_filter.h"
-#include "../src/range_filter.h"
-#include "../src/and_filter.h"
-#include "../src/factory_filter.h"
-#include "../src/create_filter.h"   
-#include "../src/process_stream.h" 
-#include "../src/filter_type.h"
-#include "../src/filter_rule.h"
+#include "subnet_filter.h"
+#include "range_filter.h"
+#include "and_filter.h"
+#include "factory_filter.h"
+#include "create_filter.h"   
+#include "process_stream.h" 
+#include "filter_type.h"
+#include "filter_rule.h"
 
 TEST(SubnetFilterTest, ValidCIDR) {
     EXPECT_NO_THROW(subnet_filter("192.168.1.0/24"));
