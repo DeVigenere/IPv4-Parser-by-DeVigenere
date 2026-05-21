@@ -5,6 +5,8 @@
 #include "../src/factory_filter.h"
 #include "../src/create_filter.h"   
 #include "../src/process_stream.h" 
+#include "../src/filter_type.h"
+#include "../src/filter_rule.h"
 
 TEST(SubnetFilterTest, ValidCIDR) {
     EXPECT_NO_THROW(subnet_filter("192.168.1.0/24"));

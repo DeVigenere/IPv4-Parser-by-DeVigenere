@@ -3,6 +3,7 @@
 #include <sstream>
 #include "filter.h"
 #include "ip_to_uint32.h"
+#include "filter_type.h"
 class subnet_filter : public filter {
 	std::uint32_t subnet_ip;
 	std::uint32_t subnet_mask;
@@ -53,5 +54,7 @@ public:
 		}
 		
 	}
-	std::string get_type() const override { return "subnet"; };
+	std::string get_type() const {
+		return to_string(filter_type::subnet);
+	}
 };

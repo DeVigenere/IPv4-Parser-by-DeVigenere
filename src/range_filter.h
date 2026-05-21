@@ -3,7 +3,7 @@
 #include <stdexcept>
 #include <sstream>
 #include "filter.h"
-
+#include "filter_type.h"
 
 class range_filter : public filter {
 	std::uint32_t lower_bound;
@@ -33,6 +33,8 @@ public:
 		}
 
 	}
-	std::string get_type() const override { return "subnet"; };
+	std::string get_type() const {
+		return to_string(filter_type::range);
+	}
 		
 };
