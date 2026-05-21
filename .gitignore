@@ -1,3 +1,9 @@
+# Google Test
+packages/
+tests/packages/
+tests/googletest-*/
+**/googletest-*/
+
 # Prerequisites
 *.d
 
